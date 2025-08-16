@@ -1,0 +1,21 @@
+{
+  "template_type": "multipass_comp",
+  "shots": [
+    {
+      "name": "shot_010_hero",
+      "beauty": "/proj/shots/shot_010/render/beauty.####.exr",
+      "shadow": "/proj/shots/shot_010/render/shadow.####.exr",
+      "spec": "/proj/shots/shot_010/render/specular.####.exr",
+      "output": "/proj/shots/shot_010/comp/final.####.exr",
+      "script_path": "/proj/shots/shot_010/nuke/shot_010_comp.nk"
+    },
+    {
+      "name": "shot_020_environment",
+      "beauty": "/proj/shots/shot_020/render/beauty.####.exr",
+      "shadow": "/proj/shots/shot_020/render/shadow.####.exr",
+      "spec": "/proj/shots/shot_020/render/specular.####.exr",
+      "output": "/proj/shots/shot_020/comp/final.####.exr",
+      "script_path": "/proj/shots/shot_020/nuke/shot_020_comp.nk"
+    }
+  ]
+}
